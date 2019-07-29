@@ -1,0 +1,24 @@
+Which of the following programs is this pseudocode for?
+C. MidpointFinderKarel.java
+
+
+Your Pseudocode:
+This methodology for finding the midpoint is best described as a "squeeze" method
+in which Karel decrements the distance between two beepers until Karel hones in on
+the midpoint.
+
+place beeper for left boundary
+while able to move forward without hitting a wall:
+	keep moving
+place beeper for right boundary and turn around
+while able to move forward:
+	keep moving
+	if there is a beeper under Karel:
+		pick up the beeper
+		turn around
+		place beeper one space closer to center
+turn around because Karel is at a wall facing outward
+move until Karel finds the extraneous beeper
+pick up beeper
+move to midpoint beeper
+		
